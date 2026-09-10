@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     --color-header-text: #CCF8FF;
     --color-card-text: #000000;
@@ -5,19 +7,83 @@
     --size-card-text: 17px;
     --size-card-little-text: 12px;
     --line-height-card-text:28px;
-
+    --font-family-inter:'inter' ;
 }
 
 .text{
     color: var(--color-header-text);
 }
 
+.header{
+    color:#CCF8FFBF;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.cartBox{
+    margin-top: 79px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.cart{
+    background-color: #FFFFFF;
+    margin-right: 19px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 316px;
+    height: 186px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    
+}
+
+.text1{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.text2{
+    font-weight: 700;
+    font-size: var(--size-card-text);
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    margin: 18px 0 12px 0;
+}
+
+.text3 {
+    color: var(--color-card-little-text);
+    margin: 0 24px;
+    font-size: var(--size-card-little-text);
+    line-height: 100%;
+    font-family: Inter;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center; 
+
+}
 
 p{
+    font-family: var(--font-family-inter);
     margin: 0;
 }
 
 h1{
+    font-family: var(--font-family-inter);
     padding-bottom: 12px;
     font-size: 72px;
     margin: 0;
@@ -35,6 +101,8 @@ header {
 }
 
 input {
+    border: 1px solid #e0e0e0;
+    font-family: var(--font-family-inter);
     width: 820px;
     height: 64px;
     font-weight: 400;
@@ -45,5 +113,5 @@ input {
     left: 310px;
     padding: 21px 0 22px 32px ;
     color: #ABB5BE;
-    border-radius: 3px;
+    border-radius: 8px;
 }
