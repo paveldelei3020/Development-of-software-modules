@@ -1,0 +1,49 @@
+:root {
+    --color-header-text: #CCF8FF;
+    --color-card-text: #000000;
+    --color-card-little-text: #3F444A;
+    --size-card-text: 17px;
+    --size-card-little-text: 12px;
+    --line-height-card-text:28px;
+
+}
+
+.text{
+    color: var(--color-header-text);
+}
+
+
+p{
+    margin: 0;
+}
+
+h1{
+    padding-bottom: 12px;
+    font-size: 72px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 295px;
+    background: linear-gradient(92.33deg, #196B78 0.12%, #138496 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    width: 820px;
+    height: 64px;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 24px;
+    position: absolute;
+    top: 263px;
+    left: 310px;
+    padding: 21px 0 22px 32px ;
+    color: #ABB5BE;
+    border-radius: 3px;
+}
