@@ -11,6 +11,9 @@ pull:
 	$(GIT) pull
 
 # Запуск приложений 
+dev0:
+	(cd project0 && node index.js)
+
 dev1:
 	(cd proect1 && exec npm run dev)
 
